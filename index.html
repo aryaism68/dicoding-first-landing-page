@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aurelia Bakery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/images/logoTitle.png" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <script defer src="assets/scripts/script.js"></script>
+  </head>
+  <body>
+    <header class="navbar-container">
+      <div class="jumbotron">
+        <h1>
+          <img src="assets/images/logoTitle.png" class="logoHeader" alt="logoHeader" />
+          <span class="bigFont">Aurelia</span>
+          <span class="bigFont">Bakery<br /></span>
+          <span class="smallerFont">The&nbsp;Best&nbsp;Bakery</span>
+          <span class="smallerFont">in&nbsp;Town</span>
+        </h1>
+      </div>
+      <nav>
+        <ul>
+          <div class="dropdown">
+            <li><a href="#cakes">Cakes</a></li>
+            <div class="dropdown-content">
+              <a href="#cakes">Choco Cake</a>
+              <a href="#cakes">Cheese Cake</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <li><a href="#cookies">Cookies</a></li>
+            <div class="dropdown-content">
+              <a href="#cookies">Raisins Cookie</a>
+              <a href="#cookies">Chocochips Cookie</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <li><a href="#cupcakes">Cupcakes</a></li>
+            <div class="dropdown-content">
+              <a href="#cupcakes">Choco Cupcake</a>
+              <a href="#cupcakes">Vanilla Cupcake</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <li><a href="#donuts">Donuts</a></li>
+            <div class="dropdown-content">
+              <a href="#donuts">Fruit Donut</a>
+              <a href="#donuts">Sweet Donut</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <li><a href="#pastries">Pastries</a></li>
+            <div class="dropdown-content">
+              <a href="#pastries">Croissant</a>
+              <a href="#pastries">Macaron</a>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content">
+        <article id="options" class="card">
+          <h2 id="option">Choose your favourite!</h2>
+          <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radio-btn" id="radio1" />
+              <input type="radio" name="radio-btn" id="radio2" />
+              <input type="radio" name="radio-btn" id="radio3" />
+              <input type="radio" name="radio-btn" id="radio4" />
+              <input type="radio" name="radio-btn" id="radio5" />
+
+              <div class="first slide">
+                <a href="#cakes"><img src="assets/images/cakes.png" class="slide-image" alt="cakesSlide" /></a>
+              </div>
+              <div class="slide">
+                <a href="#cookies"><img src="assets/images/cookies.png" class="slide-image" alt="cookiesSlide" /></a>
+              </div>
+              <div class="slide">
+                <a href="#cupcakes"><img src="assets/images/cupcakes.png" class="slide-image" alt="cupcakesSlide" /></a>
+              </div>
+              <div class="slide">
+                <a href="#donuts"><img src="assets/images/donuts.png" class="slide-image" alt="donutsSlide" /></a>
+              </div>
+              <div class="slide">
+                <a href="#pastries"><img src="assets/images/pastries.png" class="slide-image" alt="pastriesSlide" /></a>
+              </div>
+            </div>
+
+            <div class="radio-navigation">
+              <label for="radio1" class="navigation-btn active" id="radioA"> </label>
+              <label for="radio2" class="navigation-btn" id="radioB"> </label>
+              <label for="radio3" class="navigation-btn" id="radioC"> </label>
+              <label for="radio4" class="navigation-btn" id="radioD"> </label>
+              <label for="radio5" class="navigation-btn" id="radioE"> </label>
+            </div>
+          </div>
+        </article>
+
+        <article id="cakes" class="card">
+          <h2 id="cake">Cakes</h2>
+          <img src="assets/images/cakesArticle.png" class="featured-image" alt="cakesCard" />
+          <section>
+            <h3 id="chocoCake">Choco Cake</h3>
+            <p>A sweet temptation noone can resist.<br />This melt-in-mouth Choco Cake is the best option to satiate your chocolate cravings!</p>
+          </section>
+
+          <section>
+            <h3 id="cheeseCake">Cheese Cake</h3>
+            <p>A light-yet-rich soft cheesecake.<br />The freshness of strawberry topping on Cheese Cake will bright your day!</p>
+          </section>
+        </article>
+
+        <article id="cookies" class="card">
+          <h2 id="cookie">Cookies</h2>
+          <img src="assets/images/cookiesArticle.png" class="featured-image" alt="cookiesCard" />
+          <section>
+            <h3 id="raisinCookie">Raisins Cookie</h3>
+            <p>Classic Raisins Cookies with hints of warming ginger.<br />A nostalgic treat to share with your family!</p>
+          </section>
+
+          <section>
+            <h3 id="chocochipCookie">Chocochips Cookie</h3>
+            <p>Delicious Chocochip Cookies with crunchy edges and chewy middles.<br />A perfect addition to any pajamas parties!</p>
+          </section>
+        </article>
+
+        <article id="cupcakes" class="card">
+          <h2 id="cupcake">Cupcakes</h2>
+          <img src="assets/images/cupcakesArticle.png" class="featured-image" alt="cupcakesCard" />
+          <section>
+            <h3 id="chocoCupcake">Choco Cupcake</h3>
+            <p>A delicious cupcake with creamy chocolate frosting.<br />The milk chocolate topping makes the cupcake more special!</p>
+          </section>
+
+          <section>
+            <h3 id="vanillaCupcake">Vanilla Cupcake</h3>
+            <p>A yummy cupcake with whipped vanilla frosting.<br />The red velvet topping makes the cupcake more extraordinary!</p>
+          </section>
+        </article>
+
+        <article id="donuts" class="card">
+          <h2 id="donut">Donuts</h2>
+          <img src="assets/images/donutsArticle.png" class="featured-image" alt="donutsCard" />
+          <section>
+            <h3 id="fruitDonut">Fruits Donut</h3>
+            <p>A healthy light snack to munch on.<br />Increase your intake of nutrient-rich fruits to power you through a busy morning!</p>
+          </section>
+
+          <section>
+            <h3 id="sweetDonut">Sweets Donut</h3>
+            <p>A plump and sugary treats with sweet chocolate glaze and sprinkles.<br />Donut worry and be happy with each bite!</p>
+          </section>
+        </article>
+
+        <article id="pastries" class="card">
+          <h2 id="pastry">Pastries</h2>
+          <img src="assets/images/pastriesArticle.png" class="featured-image" alt="pastriesCard" />
+          <section>
+            <h3 id="croissant">Croissant</h3>
+            <p>A puff pastry that is flaky on the outside and soft on the inside.<br />Best for breakfast when accompanied by coffee!</p>
+          </section>
+
+          <section>
+            <h3 id="macaron">Macaron</h3>
+            <p>A delicate pastry that is crunchy on shells but mildly moist inside.<br />Its subtle almond flavour is a heaven match for tea time!</p>
+          </section>
+        </article>
+      </div>
+
+      <aside>
+        <article class="profile-card" id="details">
+          <header>
+            <h2>Made with &#x1F497; by</h2>
+            <figure>
+              <img src="assets/images/photo.png" class="photo" />
+              <figcaption>aryaism68</figcaption>
+            </figure>
+          </header>
+          <section>
+            <h3>Contact us</h3>
+            <table>
+              <tr>
+                <th>Address:</th>
+                <td>Jl.&nbsp;Ir&nbsp;Juanda&nbsp;82 Panembong Cianjur&nbsp;43251</td>
+              </tr>
+              <tr>
+                <th>WhatsApp:</th>
+                <td>+62899 000 000</td>
+              </tr>
+              <tr>
+                <th>Phone:</th>
+                <td>+62 263 0000 000</td>
+              </tr>
+              <tr>
+                <th>Fax:</th>
+                <td>+62 263 000 000</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+
+        <article class="offer-card" id="offer1">
+          <header>
+            <figure>
+              <img src="assets/images/offer1.png" class="offer-image" alt="offer1" />
+            </figure>
+          </header>
+        </article>
+        <article class="offer-card" id="offer2">
+          <header>
+            <figure>
+              <img src="assets/images/offer2.png" class="offer-image" alt="offer2" />
+            </figure>
+          </header>
+        </article>
+        <article class="offer-card" id="offer3">
+          <header>
+            <figure>
+              <img src="assets/images/offer3.png" class="offer-image" alt="offer3" />
+            </figure>
+          </header>
+        </article>
+        <article class="offer-card" id="offer4">
+          <header>
+            <figure>
+              <img src="assets/images/offer4.png" class="offer-image" alt="offer4" />
+            </figure>
+          </header>
+        </article>
+        <article class="offer-card" id="offer5">
+          <header>
+            <figure>
+              <img src="assets/images/offer5.png" class="offer-image" alt="offer5" />
+            </figure>
+          </header>
+        </article>
+        <article class="offer-card" id="offer6">
+          <header>
+            <figure>
+              <img src="assets/images/offer6.png" class="offer-image" alt="offer6" />
+            </figure>
+          </header>
+        </article>
+        <article class="offer-card" id="offer7">
+          <header>
+            <figure>
+              <img src="assets/images/offer7.png" class="offer-image" alt="offer7" />
+            </figure>
+          </header>
+        </article>
+        <article class="offer-card" id="offer8">
+          <header>
+            <figure>
+              <img src="assets/images/offer8.png" class="offer-image" alt="offer8" />
+            </figure>
+          </header>
+        </article>
+        <article class="offer-card last" id="offer9">
+          <header>
+            <figure>
+              <img src="assets/images/offer9.png" class="offer-image" alt="offer9" />
+            </figure>
+          </header>
+        </article>
+
+        <div class="promo-code">
+          <button><img src="assets/images/promo.png" class="promo" height="25" width="50" id="promo0" alt="promo0" /></button>
+          <button onclick="myPromo1()"><img src="assets/images/cakesIcon.jpg" class="promo" height="50" width="50" alt="promo1" /></button>
+          <button onclick="myPromo2()"><img src="assets/images/cookiesIcon.jpg" class="promo" height="50" width="50" alt="promo2" /></button>
+          <button onclick="myPromo3()"><img src="assets/images/cupcakesIcon.jpg" class="promo" height="50" width="50" alt="promo3" /></button>
+          <button onclick="myPromo4()"><img src="assets/images/donutsIcon.jpg" class="promo" height="50" width="50" alt="promo4" /></button>
+          <button onclick="myPromo5()"><img src="assets/images/pastriesIcon.jpg" class="promo" height="50" width="50" alt="promo5" /></button>
+        </div>
+
+        <button class="gotoTop" onclick="window.scrollTo(0,0);">&#x2191;</button>
+      </aside>
+    </main>
+
+    <footer id="copyright">
+      <img src="assets/images/logoTitle.png" class="logoFooter" alt="logoFooter" />
+      <p>Aurelia&nbsp;Bakery&nbsp;&#169;&nbsp;2023</p>
+    </footer>
+  </body>
+</html>
